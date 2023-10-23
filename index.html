@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <!-- TOP SECTION -->
+      <section id="date-container">
+        <div class="date-input-container">
+          <div class="date-inputs">
+            <span>DAY</span>
+            <input type="text" placeholder='DD' id="day">
+            <span class="alertError"></span>
+          </div>
+          <div class="date-inputs">
+            <span>MONTH</span>
+            <input type="text" placeholder="MM" id="month">
+            <span class="alertError"></span>
+          </div>
+          <div class="date-inputs">
+            <span>YEAR</span>
+            <input type="text" placeholder="YY" id="year">
+            <span class="alertError"></span>
+          </div>
+        </div>
+      
+        <div class="logo">
+          <img src="/assets/images/icon-arrow.svg" alt="" id="button">
+        </div>
+      </section>
+
+      <!-- BOTTOM SECTION -->
+      <section id="date-text-container">
+        <div class="date-text">
+          <h1 id="years-text" class="date-numbers">--</h1>
+          <h1 class="date-titles">years</h1>
+        </div>
+        <div class="date-text">
+          <h1 id="months-text" class="date-numbers">--</h1>
+          <h1 class="date-titles">months</h1>
+        </div>
+        <div class="date-text">
+          <h1 id="days-text" class="date-numbers">--</h1>
+          <h1 class="date-titles">days</h1>
+        </div>
+      </section>
+  </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Cole Joffray</a>.
+  </div> -->
+  <script src="main.js"></script>
+</body>
+</html>
